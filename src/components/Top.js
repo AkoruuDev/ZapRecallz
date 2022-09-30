@@ -3,20 +3,22 @@ import logo from "../images/logo.png";
 
 export default function Top() {
     return(
-        <Top>
-            <img src={logo} />
+        <TopGame>
+            <Image src={logo} />
             <Title>ZapRecall</Title>
-        </Top>
+        </TopGame>
     )
 }
 
-const Top = styled.div`
+const TopGame = styled.div`
     width: 100vw;
-    height: 80px;
+    height: 100px;
     padding: 0 5vw;
+    background-color: #FB6B6B;
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     position: fixed;
     top: 0;
@@ -29,4 +31,8 @@ const Title = styled.h1`
     font-family: 'Righteous', cursive;
     font-size: 36px;
     color: #FFFFFF;
+`
+
+const Image = styled.img`
+    height: 80%;
 `
