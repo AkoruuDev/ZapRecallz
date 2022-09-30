@@ -4,7 +4,7 @@ import logo from "../images/logo.png";
 export default function Top() {
     return(
         <TopGame>
-            <Image src={logo} />
+            <Image src={logo} alt="logo" />
             <Title>ZapRecall</Title>
         </TopGame>
     )

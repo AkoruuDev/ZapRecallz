@@ -5,7 +5,7 @@ export default function Welcome({ setStart }) {
     return(
         <Conteiner>
             <div>
-                <img src={logo} />
+                <img src={logo} alt='logo' />
                 <Title>ZapRecall</Title>            
             </div>
             <Button onClick={() => setStart(true)}>Começar Recall</Button>
