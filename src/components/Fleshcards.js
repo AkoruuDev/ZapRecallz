@@ -1,11 +1,18 @@
 import styled from "styled-components"
 
 export default function Fleshcards({ deck }) {
-    console.log(deck)
     return(
         <Container>
-            
+            {deck.map((card, i) => <Card key={i} card={card}/>)}
         </Container>
+    )
+}
+
+function Card({ card }) {
+    const {question, answer} = card;
+
+    return(
+        <></>
     )
 }
 
