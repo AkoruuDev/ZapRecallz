@@ -2,14 +2,17 @@ import Top from "./Top";
 import Fleshcards from "./Fleshcards";
 import Footer from "./Footer";
 import styled from "styled-components";
+import { useState } from "react";
 
 export default function Game() {
+    const [total, setTotal] = useState(0)
+    const [completed, setCompleted] = useState(0)
 
     return(
         <Container>
             <Top />
             <Fleshcards />
-            <Footer />
+            <Footer total={total} completed={completed} />
         </Container>
     )
 }
