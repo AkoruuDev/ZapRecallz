@@ -11,7 +11,7 @@ export default function Top() {
 }
 
 const TopGame = styled.div`
-    width: 100vw;
+    width: 80vw;
     height: 100px;
     padding: 0 5vw;
     background-color: #FB6B6B;
