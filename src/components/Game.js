@@ -1,17 +1,22 @@
+import { useState } from "react";
+import styled from "styled-components";
+
 import Top from "./Top";
 import Fleshcards from "./Fleshcards";
 import Footer from "./Footer";
-import styled from "styled-components";
-import { useState } from "react";
+
+import { ReactDeck } from "./Decks";
 
 export default function Game() {
-    const [total, setTotal] = useState(0)
+    const [total] = useState(ReactDeck.length)
     const [completed, setCompleted] = useState(0)
+
+    const deck = ReactDeck;
 
     return(
         <Container>
             <Top />
-            <Fleshcards />
+            <Fleshcards deck={deck}/>
             <Footer total={total} completed={completed} />
         </Container>
     )

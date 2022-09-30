@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
-export default function Fleshcards() {
+export default function Fleshcards({ deck }) {
+    console.log(deck)
     return(
         <Container>
             
