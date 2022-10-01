@@ -13,10 +13,15 @@ export default function Game() {
 
     const deck = ReactDeck;
 
+    function getAnswer(ans) {
+        console.log(ans);
+        setCompleted(completed + 1);
+    }
+
     return(
         <Container>
             <Top />
-            <Fleshcards deck={deck}/>
+            <Fleshcards deck={deck} getAnswer={getAnswer} />
             <Footer total={total} completed={completed} />
         </Container>
     )
@@ -29,4 +34,5 @@ const Container = styled.div`
 
     display: flex;
     justify-content: center;
+    align-items: center;
 `
