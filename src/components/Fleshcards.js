@@ -2,6 +2,7 @@ import { useState } from "react";
 import styled from "styled-components"
 
 import play from "../images/play.png"
+import turn from "../images/turn.png"
 import wrong from "../images/iconwrong.png"
 import almost from "../images/iconalmost.png"
 import zap from "../images/iconzap.png"
@@ -34,7 +35,10 @@ function Card({ card, num, getAnswer }) {
             {closed ?
                 <ClosedCard num={num} setClosed={setClosed} answered={answered} thisCard={thisCard} /> :
                 !show ?
-                    <div onClick={() => setShow(true)}>{question}</div> :
+                    <Question onClick={() => setShow(true)}>
+                        {question}
+                        <Turn src={turn} alt="turn" />
+                    </Question> :
                     <div>
                         {answer}
                         <Buttons>
@@ -108,6 +112,15 @@ const Start = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+`
+
+const Question = styled.div`
+    position: relative;
+`
+
+const Turn = styled.img`
+    position: absolute;
+    right: 8px;
 `
 
 const Buttons = styled.div`
