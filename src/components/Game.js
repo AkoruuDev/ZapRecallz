@@ -10,11 +10,13 @@ import { ReactDeck } from "./Decks";
 export default function Game() {
     const [total] = useState(ReactDeck.length)
     const [completed, setCompleted] = useState(0)
+    const [row, setRow] = useState([]);
 
     const deck = ReactDeck;
 
     function getAnswer(ans) {
-        console.log(ans);
+        setRow([...row, ans]);
+        console.log(row)
         setCompleted(completed + 1);
     }
 
@@ -22,7 +24,7 @@ export default function Game() {
         <Container>
             <Top />
             <Fleshcards deck={deck} getAnswer={getAnswer} />
-            <Footer total={total} completed={completed} />
+            <Footer total={total} completed={completed} row={row} />
         </Container>
     )
 }
