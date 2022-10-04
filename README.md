@@ -2,7 +2,7 @@
 
 Projeto com a proposta de criar um Recall de estudos
 
-<a href="https://zaprecall-gilt.vercel.app/"><img width="600" src="./docs/images/acessar.png"></a>
+<a href="https://zaprecall-gilt.vercel.app/"><img width="600" src="https://github.com/AkoruuDev/AkoruuDev/blob/main/src/READMEs/acessar.png"></a>
 
 ### Tecnologias usadas
 <div style="display: inline_block"><br>
@@ -20,8 +20,8 @@ Projeto com a proposta de criar um Recall de estudos
 
 <div>
     <a href="https://github.com/AkoruuDev/AkoruuDev/blob/main/padr%C3%A3oDeCommits.md">
-        <img height="150px" src="./docs/images/commit-ebook.png">
-        <img height="150px" src="./docs/images/text-commit.png">
+        <img height="150px" src="https://github.com/AkoruuDev/AkoruuDev/blob/main/src/READMEs/commit-ebook.png">
+        <img height="150px" src="https://github.com/AkoruuDev/AkoruuDev/blob/main/src/READMEs/text-commit.png">
     </a>
 </div>
 
@@ -46,6 +46,6 @@ Projeto com a proposta de criar um Recall de estudos
 
 > Metadados
 <br>
-<a href="https://github.com/AkoruuDev/ZapRecallz/blob/main/docs/metadados.md" ><img height="150px" src="./docs/images/metadados.png" /></a>
+<a href="https://github.com/AkoruuDev/ZapRecallz/blob/main/docs/metadados.md" ><img height="150px" src="https://github.com/AkoruuDev/AkoruuDev/blob/main/src/READMEs/metadados.png" /></a>
 
 </div>
