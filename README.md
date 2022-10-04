@@ -27,12 +27,14 @@ Projeto com a proposta de criar um Recall de estudos
 
 ### Desktop View
 <div>
-    <img width="400" src="#">
+    <img width="400" src="./public/Layout/desktop0.png">
+    <img width="400" src="./public/Layout/desktop.png">
 </div>
 
 ### Mobile View
 <div>
-    <img height="400" src="#"/>
+    <img height="400" src="./public/Layout/mobile0.png"/>
+    <img height="400" src="./public/Layout/mobile.png"/>
 </div>
 
 ### Informações complementares:
